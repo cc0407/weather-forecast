@@ -1,8 +1,8 @@
 import React from "react";
 
-export const RoundRect = () => {
+export const RoundRect = ({width, height}) => {
     return(
-        <div className="w-32 h-32 bg-black p-8 rounded-lg">
+        <div className={`roundBox w-${32*width} h-${32*height}`}>
             test
         </div>
     )

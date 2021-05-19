@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { RoundRect } from '../../Components/RoundRect';
 
 export const Landing = () => {
     const [coords, setCoords] = useState([null,null]);
@@ -9,6 +10,8 @@ export const Landing = () => {
         });
     });
     return (
-        <div className="text-6xl font-mono">Landing</div>
+        <div className="screen">
+            <RoundRect width={2} height={2}/>
+        </div>
     )
 }

@@ -3,3 +3,11 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.screen {
+    @apply w-screen h-screen bg-tert p-8
+}
+
+.roundBox {
+    @apply bg-background p-8 rounded-lg shadow-lg
+}
