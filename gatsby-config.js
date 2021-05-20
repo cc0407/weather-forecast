@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
-        title: `Boilerplate`,
-        description: `Enter a description here`,
+        title: `Weather Forecast`,
+        description: `Provides a detailed breakdown of the next 7 day forecast in your area.`,
         author: `@cc0407`,
     },
     plugins: [
@@ -23,5 +23,5 @@ module.exports = {
         // `gatsby-plugin-offline`,
     ],
     //Change REPONAME to the name of this repo. Necessary for gh-pages to function
-    pathPrefix: "/REPONAME",
+    pathPrefix: "/weather-forecast",
 };
