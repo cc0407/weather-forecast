@@ -13,7 +13,7 @@
 }
 
 .Row {
-    @apply h-full flex flex-row
+    @apply flex flex-row
 }
 
 .Col {
