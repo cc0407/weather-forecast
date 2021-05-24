@@ -32,7 +32,7 @@ const fiveDay = () => {
     return (
         <div className="screen items-center justify-center">
                 <div className="w-full pb-8 Row items-center justify-center">
-                    <div>This is the five day forecast.</div>
+                    <div className="title">This is the five day forecast.</div>
                 </div>
                 <div className="Row">
                     <RoundRect width={1.5} height={1.5}/>
