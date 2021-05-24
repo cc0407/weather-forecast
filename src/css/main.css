@@ -5,9 +5,17 @@
 @tailwind utilities;
 
 .screen {
-    @apply w-screen h-screen bg-tert p-8
+    @apply w-screen h-screen bg-tert p-1 flex flex-col
 }
 
 .roundBox {
-    @apply bg-background p-8 rounded-lg shadow-lg
+    @apply bg-background p-8 rounded-lg shadow-lg m-6
+}
+
+.Row {
+    @apply flex flex-row
+}
+
+.Col {
+    @apply flex flex-col
 }

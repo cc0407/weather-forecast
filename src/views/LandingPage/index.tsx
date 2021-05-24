@@ -11,7 +11,13 @@ export const Landing = () => {
     });
     return (
         <div className="screen">
-            <RoundRect width={2} height={2}/>
+            <div className="Row">
+                <div className="Col">
+                    <RoundRect width={2} height={2}/>
+                    <RoundRect width={2} height={2}/>
+                </div>
+                <RoundRect width={'auto'} height={'auto'}/>
+            </div>
         </div>
     )
 }
