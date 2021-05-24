@@ -13,9 +13,9 @@
 }
 
 .Row {
-    @apply flex flex-row
+    @apply h-full flex flex-row
 }
 
 .Col {
-    @apply flex flex-col
+    @apply h-full flex flex-col
 }

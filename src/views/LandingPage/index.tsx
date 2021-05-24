@@ -12,9 +12,9 @@ export const Landing = () => {
     return (
         <div className="screen">
             <div className="Row">
-                <div className="Col">
-                    <RoundRect width={2} height={2}/>
-                    <RoundRect width={2} height={2}/>
+                <div className="Col items-stretch">
+                    <RoundRect width={2} height={3}/>
+                    <RoundRect width={2} height={3}/>
                 </div>
                 <RoundRect width={'auto'} height={'auto'}/>
             </div>
