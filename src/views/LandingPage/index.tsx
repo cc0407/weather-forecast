@@ -19,7 +19,7 @@ const overview = () => {
         <div className="screen">
                 <div className="Row h-full">
                     <div className="Col items-stretch">
-                        <RoundRect width={2} height={3}/>
+                        <RoundRect width={2} height={3} />
                         <RoundRect width={2} height={3}/>
                     </div>
                     <RoundRect />
