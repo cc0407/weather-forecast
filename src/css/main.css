@@ -22,3 +22,10 @@
 .Col {
     @apply h-full flex flex-col
 }
+
+.search {
+    @apply w-64 h-10 bg-gray-400 absolute top-0 mt-8 shadow-lg rounded-lg
+}
+.searchIconSpace {
+    @apply w-1/6 h-full rounded-lg rounded-r-none bg-background shadow-md items-center justify-center flex
+}

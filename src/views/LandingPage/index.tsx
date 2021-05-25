@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { RoundRect } from '../../Components/RoundRect';
+import { SearchBar } from '../../Components/SearchBar';
 
 export const Landing = () => {
     const [coords, setCoords] = useState([null,null]);
@@ -10,7 +11,7 @@ export const Landing = () => {
         });
     });
     return (
-        overview()
+        fiveDay()
     )
 }
 
@@ -31,6 +32,7 @@ const overview = () => {
 const fiveDay = () => {
     return (
         <div className="screen items-center justify-center">
+                <SearchBar/>
                 <div className="w-full pb-8 Row items-center justify-center">
                     <div className="title">This is the five day forecast.</div>
                 </div>
